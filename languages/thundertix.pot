@@ -1,0 +1,23 @@
+#: public/class-thundertix-public.php:111
+msgid "Settings"
+msgtr ""
+
+#: admin/class-thundertix-admin.php:110
+msgid "ThunderTix Settings"
+msgtr ""
+
+#: admin/class-thundertix-admin.php:161
+msgid "1.- Get the access token from thundertix's dashboard."
+msgtr ""
+
+#: admin/class-thundertix-admin.php:162
+msgid "2.- In the input field below enter the token."
+msgtr ""
+
+#: admin/class-thundertix-admin.php:163
+msgid "3.- Press Save Changes button."
+msgtr ""
+
+#: admin/class-thundertix-admin.php:163
+msgid "Save Changes"
+msgtr ""

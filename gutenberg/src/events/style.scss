@@ -1,0 +1,139 @@
+//.entry-content .wp-block-thundertix-events,
+.wp-block-thundertix-events .thundertix_section .thundertix_events {
+  background-color: $inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+  .event {
+    background-color: $inherit;
+    border-color: $border-color !important;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.05);
+    flex: 1 0 300px;
+    margin: 10px;
+    max-width: 520px;
+    min-width: 280px;
+  }
+
+  .event-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin: 5px;
+
+    .virtual-event {
+      background-color: #428bca;
+      color: white;
+      padding: 10px;
+      margin-bottom: 3px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .event-image {
+      background-color: $inherit;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 0;
+      padding-top: 66.64%;
+      width: 100%;
+    }
+
+    .not-event-image {
+      height: 0;
+      padding-top: 66.64%;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    .title-description {
+      .event-title {
+        font-weight: bold;
+        margin-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+
+        h4 {
+          color: $event-title;
+          font-family: $font-description;
+          font-size: 1em;
+          margin-bottom: 0;
+          text-align: left;
+        }
+
+        .event-date {
+          color: $event-date;
+          font-size: 0.7em;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+
+      .event-description {
+        color: #a9a9a9;
+        font-size: 14px;
+        height: 170px;
+        overflow: overlay;
+        padding: 10px;
+        white-space: pre-line;
+        line-height: 15px;
+      }
+    }
+
+    .event-actions {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  .button {
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .button-success {
+    background-color: $btn-bg-success;
+    border-color: $btn-border-success;
+    color: $white;
+  }
+
+  .button-block {
+    display: block;
+    width: 100%;
+  }
+
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .warn {
+    color: firebrick;
+  }
+
+  .sold-out-message {
+    font-size: 1em;
+  }
+}
